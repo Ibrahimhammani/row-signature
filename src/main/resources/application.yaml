@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+application:
+  security:
+    entity:
+      signature:
+        key: PLEASE_KEEP_IT_IN_A_ENVIRONMENT_VARIABLE
+
